@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Anjali Bihani</title>
+  <meta
+    name="description"
+    content="Projects by Anjali Bihani: Ghar ka Swaad, Campus Lost & Found, and Walk This Way — three web application concepts addressing food, campus, and safety problems."
+  />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Projects | Anjali Bihani" />
+  <meta
+    property="og:description"
+    content="Ghar ka Swaad, Campus Lost & Found, and Walk This Way — three student web project concepts."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Anjali Bihani</a>
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        <span class="sr-only">Open menu</span>
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section container">
+      <h1>Projects</h1>
+      <p class="hero-lede">
+        Three concepts I've designed as a way to practice turning a specific problem
+        into a working plan and prototype. Each one started from something I noticed
+        rather than a generic tutorial idea. None of these have live screenshots yet,
+        so the previews below are concept sketches, not finished product screens.
+      </p>
+    </section>
+
+    <section aria-label="Project details">
+      <div class="container">
+
+        <!-- Ghar ka Swaad -->
+        <article class="project-article" id="project-ghar" aria-labelledby="project-ghar-heading">
+          <div class="project-visual">
+            <div class="concept-preview">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M14 20a6 6 0 0 1 6-6h24a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H24l-8 8V26a6 6 0 0 1 0-6z" stroke="#8a8d99" stroke-width="2" />
+                <path d="M22 25c1.5 3 1.5 5 0 8M30 23c2.2 4.4 2.2 8.6 0 13M38 25c1.5 3 1.5 5 0 8" stroke="#3c4a78" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <span class="concept-label">Concept preview</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h2 id="project-ghar-heading">Ghar ka Swaad</h2>
+            <p class="project-meta-line">Web concept · HTML, CSS, JavaScript</p>
+            <p>
+              People living away from home often know exactly how they want their
+              food to taste, but explaining that preference to someone else isn't
+              always easy.
+            </p>
+            <p>
+              Ghar ka Swaad explores a voice-first way to turn those everyday food
+              preferences into clearer instructions for the cook.
+            </p>
+
+            <p class="flow-line">
+              Speak<span class="flow-sep">→</span>Understand<span class="flow-sep">→</span>Customize<span class="flow-sep">→</span>Cook<span class="flow-sep">→</span>Remember
+            </p>
+
+            <div class="taste-example">
+              <p class="taste-input">"Mirchi bahut kam, salt medium, oil low, dal thodi thin."</p>
+              <p class="taste-result">
+                Interpreted as — <strong>Spice:</strong> Low, <strong>Salt:</strong> Medium,
+                <strong>Oil:</strong> Low, <strong>Consistency:</strong> Thin.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Campus Lost & Found -->
+        <article class="project-article is-reversed" id="project-lostfound" aria-labelledby="project-lostfound-heading">
+          <div class="project-visual">
+            <div class="concept-preview">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="14" y="12" width="28" height="36" rx="3" stroke="#8a8d99" stroke-width="2" />
+                <path d="M20 20h16M20 27h16M20 34h10" stroke="#8a8d99" stroke-width="2" stroke-linecap="round" />
+                <circle cx="40" cy="42" r="8" stroke="#3c4a78" stroke-width="2" />
+                <path d="M46 48l6 6" stroke="#3c4a78" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <span class="concept-label">Concept preview</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h2 id="project-lostfound-heading">Campus Lost &amp; Found</h2>
+            <p class="project-meta-line">Web concept · HTML, CSS, JavaScript</p>
+            <p>
+              A simple campus platform for reporting, browsing and finding lost items
+              without making the process complicated.
+            </p>
+            <p>
+              The goal is to replace scattered WhatsApp messages and physical
+              noticeboards with a single, searchable place where students can post a
+              lost or found item and match with each other faster. It's a small
+              problem, but a real one — most students have lost something on campus
+              at least once.
+            </p>
+          </div>
+        </article>
+
+        <!-- Walk This Way -->
+        <article class="project-article" id="project-walk" aria-labelledby="project-walk-heading">
+          <div class="project-visual">
+            <div class="concept-preview">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M32 46c7-7 11-13 11-19a11 11 0 1 0-22 0c0 6 4 12 11 19z" stroke="#8a8d99" stroke-width="2" />
+                <circle cx="32" cy="27" r="4" stroke="#3c4a78" stroke-width="2" />
+                <path d="M14 50h36" stroke="#8a8d99" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 5" />
+              </svg>
+              <span class="concept-label">Concept preview</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h2 id="project-walk-heading">Walk This Way</h2>
+            <p class="project-meta-line">Web concept · HTML, CSS, JavaScript</p>
+            <p>
+              A navigation concept focused on helping people feel more confident
+              while travelling by combining route information with safety alerts and
+              quick access to emergency contacts.
+            </p>
+            <p>
+              The idea came from thinking through what actually helps someone feel
+              safer in the moment — not just a map, but alerts, context, and a quick
+              way to reach an emergency contact.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section section-tight container">
+      <h2>More coming soon</h2>
+      <p>
+        As I get more comfortable with React, I plan to turn some of these concepts
+        into fuller working builds and add repository links here.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-name">Anjali Bihani</p>
+        <p class="footer-meta">B.Tech CSE · 3rd Year</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="mailto:anjalibihani20@gmail.com">Email</a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/anjali-bihani-a071303b0"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Anjali Bihani on LinkedIn (opens in a new tab)"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/anjalibihani20"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Anjali Bihani on GitHub (opens in a new tab)"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

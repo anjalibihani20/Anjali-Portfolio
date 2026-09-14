@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Anjali Bihani</title>
+  <meta
+    name="description"
+    content="Get in touch with Anjali Bihani, a BTech Computer Science student, via the contact form, email, or LinkedIn."
+  />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact | Anjali Bihani" />
+  <meta
+    property="og:description"
+    content="Get in touch with Anjali Bihani via the contact form, email, or LinkedIn."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Anjali Bihani</a>
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        <span class="sr-only">Open menu</span>
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section container">
+      <h1>Get in touch</h1>
+      <p class="hero-lede">
+        Have a question about one of my projects, or an internship opportunity you
+        think I'd be a good fit for? Send me a message below, or reach out directly
+        using the details on the right.
+      </p>
+
+      <div class="contact-layout">
+        <form id="contact-form">
+          <p id="form-instructions" class="hint">
+            Fields marked with <span class="required-flag" aria-hidden="true">*</span>
+            <span class="sr-only">(required)</span> are required.
+          </p>
+
+          <div class="form-field">
+            <label for="name"
+              >Full name<span class="required-flag" aria-hidden="true">*</span
+              ><span class="sr-only"> (required)</span></label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="name"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="email"
+              >Email address<span class="required-flag" aria-hidden="true">*</span
+              ><span class="sr-only"> (required)</span></label
+            >
+            <p id="email-hint" class="hint">
+              I'll reply to this address, so please double-check it.
+            </p>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              required
+              aria-required="true"
+              aria-describedby="email-hint"
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="message"
+              >Message<span class="required-flag" aria-hidden="true">*</span
+              ><span class="sr-only"> (required)</span></label
+            >
+            <p id="message-hint" class="hint">
+              Let me know a bit about what you'd like to discuss.
+            </p>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              required
+              aria-required="true"
+              aria-describedby="message-hint"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+
+          <p
+            id="form-status"
+            class="form-status"
+            role="status"
+            aria-live="polite"
+          ></p>
+        </form>
+
+        <aside aria-labelledby="other-ways-heading">
+          <h2 id="other-ways-heading">Other ways to reach me</h2>
+          <dl class="contact-info">
+            <dt>Email</dt>
+            <dd><a class="text-link" href="mailto:anjalibihani20@gmail.com">anjalibihani20@gmail.com</a></dd>
+
+            <dt>LinkedIn</dt>
+            <dd>
+              <a
+                class="text-link"
+                href="https://www.linkedin.com/in/anjali-bihani-a071303b0"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Anjali Bihani on LinkedIn (opens in a new tab)"
+                >linkedin.com/in/anjali-bihani-a071303b0</a
+              >
+            </dd>
+            <dt>GitHub</dt>
+            <dd>
+              <a
+                class="text-link"
+                href="https://github.com/anjalibihani20"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Anjali Bihani on GitHub (opens in a new tab)"
+                >github.com/anjalibihani20</a>
+            </dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-name">Anjali Bihani</p>
+        <p class="footer-meta">B.Tech CSE · 3rd Year</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="mailto:anjalibihani20@gmail.com">Email</a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/anjali-bihani-a071303b0"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Anjali Bihani on LinkedIn (opens in a new tab)"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/anjalibihani20"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Anjali Bihani on GitHub (opens in a new tab)"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
